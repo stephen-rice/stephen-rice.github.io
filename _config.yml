@@ -28,6 +28,19 @@ twitter_username: writing_steve
 github_username:
 domain: stephen-rice.github.io
 
+header_pages:
+  - index.md
+  - contact.md
+  - blog.md
+  - about.md
+ 
+collections: 
+    books: 
+        output: true
+
+paginate: 5
+show_excerpts: true
+
 # Build settings
 theme: minima
 plugins:

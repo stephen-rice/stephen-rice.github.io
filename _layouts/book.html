@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="wrapper">
+    <div class="series-title"><h5><a href="/index.html">{{ page.series }}</a> </h5>     </div>
+    <div class="book-layout">
+        <img class="book-layout-cover" src="/assets/{{page.cover}}" alt="{{page.title}}" />
+    </div>
+    <div class="book-content">
+        {{ content }}
+        {% if page.amazon %}
+        <div class="buy-amazon">
+            <a href="{{ page.amazon }}">
+                <img src="/assets/buyamazon.png" alt="Buy & Read at Amazon" />
+            </a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% include mailing.html %}

@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="main-section">
+    <div class="wrapper">
+        {{ content }}
+        <div class="book_container">
+        {% assign books_by_entry = site.books | sort: "entry" %}
+        {%- for book in books_by_entry -%}
+            <div class="book-small">
+                <a href="{{ book.url }}"><img src="/assets/{{ book.cover }}" /></a>
+            </div>
+        {%- endfor -%}
+        </div>
+        <div class="more-link">
+            <a href="/extras/">Maps, Glossary and Extras...</a>
+        </div>
+    </div>
+    <div class="spacer"></div>
+  
+    <div class="site-header">
+        <div class="break-wrapper">
+            <div class="wrapper">
+                <div class="header-backdrop">
+                    <img class="site-title-img" src="/assets/latest-blog.png" />
+                </div>
+            </div>
+        </div>
+        {%- assign post = site.posts.first -%}
+        <div class="menu-background">
+            <div class="menu-backdrop">
+                <p class="blog-date">{{ post.date | date: "%b %-d, %Y" }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <h1 class="blog-title">{{ post.title }}</h1>
+        {{post.content}}
+        <div class="more-link">
+            <a href="/blog/">More blogs...</a>
+        </div>
+    </div>
+</div>
+{% include mailing.html %}
