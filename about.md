@@ -15,7 +15,7 @@ When I'm not writing I enjoy video games, board games, musical instruments, or s
 
 My favourite drink is whisky, unless I can find a gluten-free beer. My favourite food is indian, unless I can smell a nandos. My favourite music changes depending on my mood, from heavy metal to rock, retro wave or chillhop, unless I'm writing - in which case I trend towards movie or video game soundtracks.
 
-I'm a relatively new writer, so everything takes twice as long as it should. I also work in software, and often wondered what I'd do if earned enough startup money for early retirement; the answer was always writing books. Turns out you don't need to retire to start.
+I'm a relatively new writer, so everything takes twice as long as it should. I also work in software, and often wondered what I'd do if I earned enough startup money for early retirement; the answer was always writing books. Turns out you don't need to retire to start.
 
 ![alt text](/assets/MyDesk.jpg "A glowing blue computer, electric violin and bookshelf.")
 
