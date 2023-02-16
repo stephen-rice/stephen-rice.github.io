@@ -28,7 +28,7 @@ twitter_username: writing_steve
 github_username:
 domain: stephen-rice.github.io
 
-google_analytics: UA-170300828-1
+google_analytics:
 
 header_pages:
   - index.md
