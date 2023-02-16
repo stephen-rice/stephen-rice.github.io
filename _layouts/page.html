@@ -4,9 +4,11 @@ layout: default
 
 <div class="main-section">
     <div class="wrapper">
+        {%- if page.image -%}
         <div class="book-layout">
             <img class="book-layout-cover" src="/assets/{{page.image}}" alt="{{page.imagealt}}" />
         </div>
+        {%- endif -%}
         {{ content }}
     </div>
 </div>

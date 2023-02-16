@@ -28,6 +28,8 @@ twitter_username: writing_steve
 github_username:
 domain: stephen-rice.github.io
 
+google_analytics: UA-170300828-1
+
 header_pages:
   - index.md
   - contact.md
@@ -38,7 +40,6 @@ collections:
     books: 
         output: true
 
-paginate: 5
 show_excerpts: true
 
 # Build settings
