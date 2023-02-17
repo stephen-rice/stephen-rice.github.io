@@ -18,30 +18,30 @@ h1,h2,h3,h4,h5 {
 }
 
 .header-wrapper {
-  background-image: url("/assets/desk-bottom-crop.jpg");
-  min-height: 200px;
-  max-width: 1024px;
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
+    background-image: url("/assets/desk-bottom-crop.jpg");
+    min-height: 200px;
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
 }
 
 .break-wrapper {
-  background-image: url("/assets/scificity-crop.jpg");
-  min-height: 200px;
-  max-width: 1024px;
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
+    background-image: url("/assets/scificity-crop.jpg");
+    min-height: 200px;
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
 }
 
 .bottom-wrapper {
-  min-height: 5px;
-  max-width: 1024px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 100px;
-  position: relative;
+    min-height: 5px;
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    position: relative;
 }
 
 .site-header {
@@ -178,7 +178,7 @@ a.page-link:hover {
     width: 200px;
     float: left;
     margin-right: 15px;
-  box-shadow: 5px 5px 5px black;
+    box-shadow: 0px 4px 4px black;
 }
 
 .series-title {
@@ -200,8 +200,7 @@ a.page-link:hover {
     float: right;
     margin-left: 15px;
     margin-bottom: 10px;
-    box-shadow: 5px 5px 5px black;
-    border-style: solid;
+    box-shadow: 0px 4px 4px black;
 }
 
 .book-content {
