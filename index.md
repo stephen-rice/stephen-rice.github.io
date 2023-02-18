@@ -3,7 +3,5 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: "Home & Books"
+title: "Books"
 ---
-# The Split Sea
-Dark fantasy novels about a strange family in a dying, spirit-filled world.

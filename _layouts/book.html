@@ -2,7 +2,10 @@
 layout: default
 ---
 <div class="wrapper">
-    <div class="series-title"><h5><a href="/index.html">{{ page.series }}</a> </h5>     </div>
+    <div class="series-title-container">
+        <h1 class="series-title">{{ page.title }}</h5>
+        <h5 class="series-text"><a href="/index.html">{{ page.series }}</a></h5>
+    </div>
     <div class="book-layout">
         <img class="book-layout-cover" src="/assets/{{page.cover}}" alt="{{page.title}}" />
     </div>

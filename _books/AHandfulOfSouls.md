@@ -8,17 +8,19 @@ series: "The Split Sea: Book One"
 amazon: "https://books2read.com/u/bxQWve?store=amazon&format=EBOOK"
 entry: 1
 ---
+
+Lark has been kidnapped by a spirit worker who can raise the dead. His sisters try to rescue him, pursued by a giant with a bleeding grin and guided by a liar.
+
 ## Genre
 Dark but hopeful fantasy fiction, with a broad cast of strange characters. Humour, violence and whisky. Old gods and cults. Mystery and suspense. 
-
-## Plot
-A boy has been kidnapped by a spirit worker who can raise the dead. His sisters try to rescue him, pursued by a giant with a bleeding grin and guided by a liar.
 
 ## Audience
 Everyone old enough to deal with swearing, drug use and messy violence.
 
 ## Credits
-This book was edited by Hannah from [Black Cat Editorial Services](https://blackcatedit.com/) and the cover art was designed by Dale from [ebook launch](https://ebooklaunch.com/). I'm pleased to say that *A Handful of Souls* was selected as a semi-finalist in SPFBO 7 - many thanks to Bookborn for her great review.
+This book was edited by Hannah from [Black Cat Editorial Services](https://blackcatedit.com/) and the cover art was designed by Dale from [ebook launch](https://ebooklaunch.com/).
+
+I'm pleased to say that *A Handful of Souls* was selected as a semi-finalist in SPFBO 7 - many thanks to Bookborn for her great review.
 
 <br />
 

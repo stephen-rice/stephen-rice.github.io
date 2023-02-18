@@ -2,8 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image: "Eyebrow.jpg"
-imagealt: "A long haired, bearded man with a raised eyebrow"
+image: "Steve.jpg"
 ---
 
 # About the Author

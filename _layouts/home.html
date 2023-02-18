@@ -5,6 +5,8 @@ layout: default
 <div class="main-section">
     <div class="wrapper">
         {{ content }}
+        <h1>The Split Sea</h1>
+        <p>Dark fantasy novels about a strange family in a dying, spirit-filled world.</p>
         <div class="book_container">
         {% assign books_by_entry = site.books | sort: "entry" %}
         {%- for book in books_by_entry -%}
@@ -17,16 +19,15 @@ layout: default
             <a href="/extras/">Maps, Glossary and Extras...</a>
         </div>
     </div>
-    <div class="spacer"></div>
-  
+    <br />
+    <br />
     <div class="site-header">
         <div class="break-wrapper">
-            <div class="wrapper">
-                <div class="header-backdrop">
-                    <img class="site-title-img" src="/assets/latest-blog.png" />
-                </div>
+            <div class="header-backdrop">
+                <img class="site-title-img" src="/assets/latest-blog.png" />
             </div>
         </div>
+        
         {%- assign post = site.posts.first -%}
         <div class="menu-background">
             <div class="menu-backdrop">
@@ -34,6 +35,7 @@ layout: default
             </div>
         </div>
     </div>
+    <br />
     <div class="wrapper">
         <h1 class="blog-title">{{ post.title }}</h1>
         {{post.content}}
