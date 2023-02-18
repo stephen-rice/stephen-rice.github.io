@@ -6,4 +6,4 @@ image: rain.jpg
 imagealt: "View from a rainy window, with hills and trees in the distance."
 ---
 
-# Blog Archive
+# Blog
