@@ -7,7 +7,7 @@ layout: default
         {{ content }}
         <h1>The Split Sea</h1>
         <p>Dark fantasy novels about a strange family in a dying, spirit-filled world.</p>
-        <div class="book_container">
+        <div class="book-container">
         {% assign books_by_entry = site.books | sort: "entry" %}
         {%- for book in books_by_entry -%}
             <div class="book-small">

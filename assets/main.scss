@@ -174,7 +174,15 @@ a.page-link:hover {
     width: 200px;
     float: left;
     margin-right: 15px;
-    box-shadow: 0px 4px 4px black;
+    transition-property: all;
+    transition-duration: 0.5s;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.book-small:hover {
+    width: 220px;
 }
 
 .series-title-container {
@@ -194,9 +202,10 @@ a.page-link:hover {
     text-align: right;
 }
 
-.book_container {
+.book-container {
     display: flex;
     width: 100%;
+    height: 100px;
 }
 
 .book-layout {
@@ -246,6 +255,15 @@ a.page-link:hover {
 
 .contact-form {
     width: 100%;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 /* Goodreads */
@@ -331,6 +349,10 @@ iframe{
 .break-wrapper {
     min-height: 200px;
     background-image: url("/assets/scificity-crop.jpg");
+}
+
+.book-container {
+    height: 300px;
 }
 
 }
