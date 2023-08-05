@@ -23,12 +23,10 @@ email: mail@stephenrice.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Webpage for fantasy fiction author Stephen Rice.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://stephen-rice.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.stephenrice.co.uk/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: writing_steve
 github_username:
-domain: stephen-rice.github.io
-
-google_analytics:
+domain: stephenrice.co.uk
 
 header_pages:
   - index.md
