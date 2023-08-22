@@ -4,13 +4,19 @@ layout: default
 
 <div class="main-section">
     <div class="wrapper">
-        <div class="menu-background">
-            <div class="menu-backdrop">
-                <p class="blog-date">{{ page.date | date: "%b %-d, %Y" }}</p>
+         <div class="blog-background">
+            <div class="menu-background">
+                <div class="menu-backdrop">
+                    <p class="blog-date">{{ page.date | date: "%b %-d, %Y" }}</p>
+                </div>
+            </div>
+            <h1 class="blog-title">{{ page.title }}</h1>
+            {{ content }}
+            <div class="back-to-top">
+                Back to <a href="/blog">archive</a>
             </div>
         </div>
-        <h1 class="blog-title">{{ page.title }}</h1>
-        {{ content }}
+        <img class="blog-image" src="/assets/pontificate.png" />
     </div>
 </div>
 

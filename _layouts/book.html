@@ -3,8 +3,8 @@ layout: default
 ---
 <div class="wrapper">
     <div class="series-title-container">
-        <h1 class="series-title">{{ page.title }}</h5>
-        <h5 class="series-text"><a href="/index.html">{{ page.series }}</a></h5>
+        <h1 class="series-title">{{ page.title }}</h1>
+        <h5 class="series-text">({{ page.series }})</h5>
     </div>
     <div class="book-layout">
         <img class="book-layout-cover" src="/assets/{{page.cover}}" alt="{{page.title}}" />
@@ -13,11 +13,15 @@ layout: default
         {{ content }}
         {% if page.amazon %}
         <div class="buy-amazon">
-            <a href="{{ page.amazon }}">
-                <img src="/assets/buyamazon.png" alt="Buy & Read at Amazon" />
-            </a>
+            <p>You can buy a <i>Handful of Souls</i> at <a href="{{ page.amazon }}">Amazon</a> and other online <a href="{{ page.other }}">retailers</a>! 🎉</p>
+        </div>
+        <p>... or you can sign up below to the mailing list below for a free novella. 📚</p>
+        {% else %}
+        <div class="buy-amazon">
+            <p>Did you know you can sign up to the mailing list below for a free novella? 📚</p>
         </div>
         {% endif %}
+        <p>... or you can click <a href="/">here</a> to go back.</p>
     </div>
 </div>
 {% include mailing.html %}

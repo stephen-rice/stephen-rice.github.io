@@ -4,41 +4,57 @@
 @import "minima";
 
 body { 
-font-family: 'Crimson Pro', serif;
+    font-family: 'Crimson Pro', serif;
     font-size: 14pt;
+    color: #c9c9c9;
+    background-color: black;
 }
 
 h1,h2,h3,h4,h5 {
-    margin-bottom: 2px;
-    
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+
+h1,h2,h3 {
+    color: #fbda4a
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.small-star {
+    font-size: 9pt;
+}
+
+.quote {
+    color: #7c7c7c;
+}
+
+.map {
+    opacity: 0.9;
+    float: right;
+    width: 50%;
+    margin-left: 25px;
 }
 
 .page-content {
-    
+   padding: 0px;
 }
 
-.header-wrapper {
-    background-image: url("/assets/desk-bottom-crop-small.jpg");
-    min-height: 120px;
-    max-width: 1024px;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
+.header-background {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
 }
 
-.break-wrapper {
-    background-image: url("/assets/scificity-crop-small.jpg");
-    left: -100px;
-    min-height: 120px;
-    max-width: 1024px;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
+.break-background {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
 }
 
 .bottom-wrapper {
     min-height: 5px;
-    max-width: 1024px;
+    max-width: 1100px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 100px;
@@ -48,53 +64,76 @@ h1,h2,h3,h4,h5 {
 .site-header {
     border-top: 0px;
     border-bottom: 0px;
-    background: black;
     min-height: unset;
+    padding-top: 30px;
 }
 
 .wrapper {
-    max-width: -webkit-calc(800px - (30px * 2));
-    max-width: calc(800px - (30px * 2));
+    max-width: -webkit-calc(1100px - (30px * 2));
+    max-width: calc(1100px - (30px * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: 30px;
     padding-left: 30px;
 }
 
+.blog-narrower{
+    max-width: -webkit-calc(650px - (30px * 2));
+    max-width: calc(650px - (30px * 2));
+    margin-right: auto;
+    padding-top: 10px;
+    float: left;
+}
+
+.blog-image{
+    float: left;
+    max-width: 390px;
+}
+
 .header-backdrop {
-    width: 740px;
-    padding-left: 15px;
-    background: rgba(37, 28, 20, 0.6);
+    max-width: 1100px;
     margin-right: auto;
     margin-left: auto;
     margin-top: auto;
     display: flex;
+    padding-left: 20px;
 }
 
 .menu-backdrop {
-    max-width: 740px;
-    background: rgba(37, 28, 20, 0.6);
+    max-width: 1100px;
     margin-right: auto;
     margin-left: auto;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 15px;
 }
 
 .menu-background {
+    background: rgba(0, 0, 0, 0.6);
     width: 100%;
-    background: #fdfdfd;
 }
 
+.subheading-background {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.subheading-backdrop {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
 
 .site-title-img {
-    margin-top: 20px;
     margin-bottom: 5px;
 }
 
 
 .page-link {
-    color: white;
+    color: #c9c9c9;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 10px;
@@ -103,7 +142,14 @@ h1,h2,h3,h4,h5 {
 }
 
 .main-section {
-
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/assets/bigdesk.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: black;
+    padding-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
 }
 
 .more-link {
@@ -114,23 +160,23 @@ h1,h2,h3,h4,h5 {
 }
 
 a {
-    color: #9b4700;
+    color: #f38324;
 }
 
 a:hover {
-    color: black;
+    color: #f38324;
 }
 
 a:visited {
-    color: #9b4700;
+    color: #af5e19;
 }
 
 a.page-link:visited {
-    color: white;
+    color: #c9c9c9;
 }
 
 a.page-link:hover {
-    color: white;
+    color: #c9c9c9;
 }
 
 .spacer {
@@ -139,18 +185,19 @@ a.page-link:hover {
 }
 
 .blog-date {
-    color: white;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    color: #c9c9c9;
+    margin-bottom: 10px;
     margin-right: 15px;
     font-size: 18px;
 }
 
+.big-heading {
+    font-size: 60px;
+      color: #fbda4a
+}
+
 .blog-title {
-    color: black;
     margin-bottom: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
 }
 
 .twitter-tweet {
@@ -168,7 +215,7 @@ a.page-link:hover {
 }
 
 .book-small {
-    width: 200px;
+    width: 240px;
     float: left;
     margin-right: 15px;
     transition-property: all;
@@ -179,7 +226,11 @@ a.page-link:hover {
 }
 
 .book-small:hover {
-    width: 220px;
+    width: 265px;
+}
+
+.book-img {
+    border-radius: 5px;
 }
 
 .series-title-container {
@@ -190,19 +241,16 @@ a.page-link:hover {
 }
 
 .series-title {
-    float: left;
+    margin-bottom: 0px;
 }
 
 .series-text {
-    float: left;
-    flex-grow: 1;
-    text-align: right;
+    margin-left: 10px;
 }
 
 .book-container {
     display: flex;
     width: 100%;
-    height: 100px;
 }
 
 .book-layout {
@@ -226,21 +274,25 @@ a.page-link:hover {
 }
 
 .subscribe {
-    font-size: 14pt;
+    font-size: 16pt;
     transition-property: font-size;
     transition-duration: 0.5s;
 }
 
 .subscribe-large {
-    font-size: 18pt;
+    font-size: 20pt;
+}
+
+.subscribe-sub {
+    font-size: 12pt;
 }
 
 .buy-amazon {
-    width: 150px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    filter: drop-shadow(0px 5px 5px #BBB596);
+    margin-top: 60px;
+    font-size: 16pt;
 
 }
 
@@ -272,8 +324,7 @@ a.page-link:hover {
 .goodreads-widget h1 {
     font-weight:normal;
     font-size: 16px;
-    border-bottom: 1px solid #BBB596;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .goodreads-widget a {
@@ -329,25 +380,105 @@ iframe{
 }
 
 .page-link {
-    color: white;
+    color: #c9c9c9;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 15px;
     font-size: 13pt;
 }
 
-.header-wrapper {
-    min-height: 200px;
-    background-image: url("/assets/desk-bottom-crop.jpg");
+.header-background {
 }
 
-.break-wrapper {
-    min-height: 200px;
-    background-image: url("/assets/scificity-crop.jpg");
+.break-background {
 }
 
 .book-container {
-    height: 300px;
+    height: 420px;
+}
+
+.blog-fadein {
+    width: 100%;
+    opacity: 0.3;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.author-head-pic {
+    height: 100px;
+    min-width: 85px;
+}
+
+.blog-wrapper {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    display: flex;
+}
+
+.about-section {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/assets/MyDesk.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: black;
+    padding-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    min-height: 800px;
+    
+}
+
+.about-background {
+    width: 100%;
+}
+
+.about-backdrop {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    padding-left: 20px;
+}
+
+.contact-section {
+    padding-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    min-height: 800px;
+}
+
+.contact-background {
+    width: 100%;
+}
+
+.contact-backdrop {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    padding-left: 20px;
+}
+
+.contact-label {
+    font-size: 16pt;
+    color: #fbda4a
+}
+
+
+.blog-background {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+.back-to-top {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    padding-left: 20px;
+    font-size: 12pt;
 }
 
 }

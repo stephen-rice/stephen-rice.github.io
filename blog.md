@@ -2,8 +2,8 @@
 layout: blog
 title: Blog
 permalink: /blog/
-image: rain.jpg
-imagealt: "View from a rainy window, with hills and trees in the distance."
+image: 
+imagealt:
 ---
 
-# Blog
+# A Dusty Archive of Wayward Blogs

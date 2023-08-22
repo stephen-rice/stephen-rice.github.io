@@ -6,94 +6,74 @@ cover: "HoS.jpg"
 preview: [ "HoS_page1.png", "HoS_page2.png", "HoS_page3.png"]
 series: "The Split Sea: Book One"
 amazon: "https://books2read.com/u/bxQWve?store=amazon&format=EBOOK"
+other: "https://books2read.com/u/bxQWve"
 entry: 1
+progress: 100
 ---
 
-Lark has been kidnapped by a spirit worker who can raise the dead. His sisters try to rescue him, pursued by a giant with a bleeding grin and guided by a liar.
+#### Messy and Epic Dark Fantasy
+<br />
 
-## Genre
-Dark but hopeful fantasy fiction, with a broad cast of strange characters. Humour, violence and whisky. Old gods and cults. Mystery and suspense. 
+## Summary
+
+Deep in the cold and wet Northlands, Lark has been kidnapped by a spirit worker who can raise the dead. His sisters must travel to rescue him, pursued by a giant with a bleeding grin and guided by a liar.
+
+- A broad cast of strange characters
+- Dark humour, violence and whisky
+- Mystery, old gods and young cults
+- A restless sea and a dying continent
+- A story about family
+
+<br />
+Rating on [Amazon:](https://books2read.com/u/bxQWve?store=amazon&format=EBOOK) ⭐⭐⭐⭐⭐ 5/5
+
+Rating on [Goodreads:](https://www.goodreads.com/book/show/56537126-a-handful-of-souls) ⭐⭐⭐⭐<span class="small-star">⭐</span> 4.5/5
+<br />
+<br />
+
+## Awards
+- Semi-finalist in SPFBO 7 <br /> [Bookborn](https://www.youtube.com/watch?v=RzdRHa8Ru5k&t=135s) <br /><span class="quote">'I'm always a sucker for a sibling story, and one where you don't know if you can trust the characters or not'</span>
+
+## Selected Reviews
+
+- [Indie Book Spotlight](https://rebeccacrunden.com/2022/08/04/book-review-a-handful-of-souls-by-stephen-rice/)<br /><span class="quote">'Something I found really quite cool about this story was how unlike so many other fantasy reads it is. Like, it’s grimdark family drama in a world that brought to mind everything from Westeros to Ketterdam.'</span>
+- [Andrew's Wizardly Reads](https://www.goodreads.com/review/show/4972696735)<br /><span class="quote">'I really enjoyed this book! A fantasy book that’s not afraid of embracing it’s creepy side.'</span>
+- [JamReads](https://jamreads.com/reviews/a-handful-of-souls-the-split-sea-1-by-stephen-rice)<br /><span class="quote">'I cannot express how well-written Lily is. Her chapters are certainly the most interesting, and it’s a character that I loved from the start. She was prickly and hard-headed and might have a small problem with certain substances, but also a real force in this book'</span>
+
+<br />
 
 ## Audience
 Everyone old enough to deal with swearing, drug use and messy violence.
-
-## Credits
-This book was edited by Hannah from [Black Cat Editorial Services](https://blackcatedit.com/) and the cover art was designed by Dale from [ebook launch](https://ebooklaunch.com/).
-
-I'm pleased to say that *A Handful of Souls* was selected as a semi-finalist in SPFBO 7 - many thanks to Bookborn for her great review.
-
-<br />
-
-{% include YouTube/HoS-Bookborn.html %}
-
-<br />
 <br />
 <br />
 
-![alt text](/assets/preview.jpg "Preview")
+## Setting
+<a href="/assets/SplitSeaMap.png"><img src="/assets/SplitSeaMap.png" class="map" id="map" alt="Map of the Split Sea"/></a>
 
-Heat crept through the walls to coat Lark’s skin with a slick of sweat. His eyes closed, chasing the peace he’d just lost.
+### A Brief Tour of the Landed Ring
+The Landed Ring is a lonely continent surrounded by the Split Sea. If there are any other continents, they are unreachable, as the vortex current circles faster the further one gets from the shore. Trading fleets and raiders ride these waters clockwise in an endless circle, each spreading wealth in their own particular way.
 
-‘Are we alive?’ The voice was soft, almost a whisper. ‘Show me.’
+The Split Sea gets its name from the Split, which is a tempestuous channel that separates the Northlands from the rest of the continent. The people living on this island keep themselves isolated by choice, but wouldn’t even have that if not for the Long Path, a mysterious and ancient crossing that winds across deadly waters.
 
-Lark opened his eyes again.
+From beyond the vortex current, spirits called the Tar-Agran float closer to the shore. Each of the old kingdoms deals with them differently, scrambling for ways to defend themselves from these fickle and hungry creatures.
 
-‘Good.’ The voice’s owner was hunched over a nearby desk. He was fat and sweating profusely, scratching away in a book and mopping himself whenever his brow or squidgy nose threatened to blot the paper. He turned to Lark with a smile. ‘It’s a new beginning for you, my boy. Enjoy the blank slate while you can.’
+### The Roaming Watch
+Most of the continent is claimed by a military group called the Roaming Watch. Little is known about them, but they seek stability at all times, allowing monarchs or militaries to hold or seize power as long as any conflict is swift and their taxes are paid. Watchmen are arrogant and peerless fighters, and are often accused of using taxation to deliberately suppress their vassal territories.
 
-The man held the smile for a moment, then turned back to his book.
+### Branera
+At the beginning of this novel, Lily, Lark and Rose are living with their adoptive father in Branera; the proudest, richest city of the Northlands. The most hospitable soil - tough and gritty as it is - was kept for farming, so the trading settlment which controls those lands was built on mud and slop. Despite this, Branera is a tall city, with towering, teetering buildings that elevate the aristocracy out of the mud. Wealth of all sorts is crammed into every nook and cranny of this creaking city, from the muddy Low Ends to the soaring boardwalks.
 
-Lark didn’t reply. He could wait. The world could wait. But it didn’t and wouldn’t and crept up on him with unwanted demands. He groaned as his skin stuck to the floor, each breath tightening a web of pain that gripped his chest.
+### The Journey
 
-The man coughed politely. ‘What is your name, may I ask?’
+Northers don't hold with stories of magic. They don't have to. Their island is cut off from the continent by a raging channel, and their soil is hostile and infertile ground for spirits. But when Lark is kidnapped and taken south, his sisters are thrust into a southern world far stranger and darker than the one they grew up in.
 
-‘Lark,’ he managed.
-
-‘Wonderful.’ He scribbled away for a few moments, then dropped his quill with a satisfied flourish. ‘Road greetings, Lark. My name is Terrano. My home city is quite far from here – in the Southlands, in fact.’
-
-A land of spirits.
-
-Despite the dozen or so oil lamps hanging around the room, Terrano raised one more to examine Lark’s face. Fresh tears blurred the man’s face to a painful halo. ‘Can you speak, my boy?’ he asked, lowering the lamp with an encouraging smile.
-
-‘Water.’
-
-‘Aha! Yes. Yes, yes, yes.’ Terrano chuckled to himself, but made no move to fetch any. He set down his lamp and checked the book with a finger. ‘An uncommon thirst on awakening, spasms of the back and neck, a fever unlike any other, visions and madness.’ He held the lantern up again. ‘Any spasms, Lark? Do you feel any spasms?’
-
-‘…water, please.’
-
-Lark’s hip ached, pressed down hard against the stone floor. Needles danced over his skin. Terrano was saying something else, but his voice sounded distant and tinny.
-
-~
-
-With a sinking sensation, Lark woke to find himself slumped in Terrano’s chair, a coarse blanket draped over his shoulders. The wind had forced its fingers inside and pushed past the door to ruffle the strange man’s book, which had been left open on the desk. Lark’s hand crept out to still the fluttering paper. Sketches of his naked body littered the page, cut apart by arrows and smeared with letters. As he watched, the words tumbled and ran over one another, until only his
-name stood out clearly. It was written in Seatongue, and painted on using thick luxurious swirls of ink.
-
-‘One moment, my boy. I’ll be with you in one moment.’ Terrano’s soft voice came from somewhere behind him. ‘Sip some water.’
-
-A bowl had been placed on the desk. Lark scrambled for it, spluttering and sobbing with relief.
-
-‘One moment. One moment.’
-
-The empty bowl fell from Lark’s hands with a clatter. He looked around the gloom, wiping a dribble of tepid water from his chin. Cobwebs draped angles between a snapped mill shaft and rotten crossbeams. Someone had dragged a crate through the dust to a far wall, but despite the lanterns hung all around it, it was still cloaked in shadow, and the wood rippled and
-twisted, crawling, skittering closer on hidden legs, a yawning, cavernous moan rattling through its warped planks as it leapt at him.
-
-The moment passed. Terrano knocked a fist against the crate and waited for a response. None came.
-
-‘Sere,’ Lark croaked, closing his eyes against the visions. ‘Where am I?’
-
-He heard footsteps and opened one eye a crack. Terrano had spread his arms triumphantly, as if to deliver a hug, and an old panic gripped Lark, sparking life into his aching limbs.
-
-‘Please! Please don’t—’
-
-‘Such questions! I see you are recovering.’ Terrano placed his hands, mercifully, on the edge of the table. ‘I admit, I was worried when you collapsed. I thought I had picked a weakling at last, pushed myself too hard. But here you are. And truly, Lark...’ Terrano dropped his voice to a whisper. ‘Welcome back to the world of the living.’
-
-He reached over and closed his book with a weighty thump.
-
-An ornate carving was fixed to the cover, and the title – An Encounter with Death – was etched above a magnificent and thoroughly fictitious rendering of Terrano, his chin raised and nobility radiating from a generous smile. Lark looked up at him. A plump, piggy-faced scholar beamed back, reading
-glasses dangling from his neck. He’d taken off his jacket and great puffs of lace bloomed over his clasped hands.
-
-‘To answer your earlier question, Lark, you are a day’s ride north of the Split. This was not my first choice of refuge, but the weather conspires against me.’ Terrano paused, allowing the howling wind to intrude on their conversation. ‘The other subjects of my humble study are taking shelter nearby. Now, I understand from your papers you were volunteered for the
-tax patrol?’
 
 <br />
+<br />
+<br />
 
-{% include Goodreads/HoS-Reviews.html %}
+
+## Acknowledgements
+
+- Edited by Hannah from [Black Cat Editorial Services](https://blackcatedit.com/)
+- Cover art by Dale from [ebook launch](https://ebooklaunch.com/).

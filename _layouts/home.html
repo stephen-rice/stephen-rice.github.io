@@ -3,45 +3,109 @@ layout: default
 ---
 
 <div class="main-section">
+    <div class="break-background">
+        <div class="header-backdrop">
+            <p class="big-heading">The Books</p>
+        </div>
+    </div>
+    <div class="subheading-background">
+        <div class="subheading-backdrop">
+            <p class="blog-date">Messy and Epic Dark Fantasy</p>
+        </div>
+    </div>
     <div class="wrapper">
         {{ content }}
-        <h1>The Split Sea</h1>
-        <p>Dark fantasy novels about a strange family in a dying, spirit-filled world.</p>
         <div class="book-container">
         {% assign books_by_entry = site.books | sort: "entry" %}
         {%- for book in books_by_entry -%}
             <div class="book-small">
-                <a href="{{ book.url }}"><img src="/assets/{{ book.cover }}" /></a>
+                <a href="{{ book.url }}"><img class="book-img" src="/assets/{{ book.cover }}" /></a>
             </div>
         {%- endfor -%}
         </div>
-        <div class="more-link">
-            <a href="/extras/">Maps, Glossary and Extras...</a>
-        </div>
     </div>
     <br />
     <br />
-    <div class="site-header">
-        <div class="break-wrapper">
-            <div class="header-backdrop">
-                <img class="site-title-img" src="/assets/latest-blog.png" />
-            </div>
-        </div>
-        
-        {%- assign post = site.posts.first -%}
-        <div class="menu-background">
-            <div class="menu-backdrop">
-                <p class="blog-date">{{ post.date | date: "%b %-d, %Y" }}</p>
-            </div>
+    <br />
+    <br />
+    <div class="break-background">
+        <div class="header-backdrop">
+            <p class="big-heading" id="blog">Latest Blog</p>
         </div>
     </div>
-    <br />
-    <div class="wrapper">
-        <h1 class="blog-title">{{ post.title }}</h1>
-        {{post.content}}
-        <div class="more-link">
-            <a href="/blog/">More blogs...</a>
+    {%- assign post = site.posts.first -%}
+    <div class="subheading-background">
+        <div class="subheading-backdrop">
+            <p class="blog-date">{{ post.date | date: "%b %-d, %Y" }} </p>
+        </div>
+    </div>
+    
+    <div class="blog-fadein" id="fader">
+        <div class="wrapper">
+            <div class="blog-narrower">
+                <h1 class="blog-title">{{ post.title }}</h1>
+                {{post.content}}
+                <div class="more-link">
+                    <a href="/blog/">More blogs...</a>
+                </div>
+            </div>
+            <img class="blog-image" src="/assets/pontificate.png" />
+        </div>
+    </div>
+    <script>
+        updateFader();
+    </script>
+    {% include mailing.html %}
+</div>
+ <div class="about-section">
+     <div class="break-background">
+        <div class="header-backdrop">
+            <p class="big-heading" id="about">About the Author</p>
+        </div>
+    </div>
+    <div class="about-background">
+         <div class="about-backdrop">
+            <p>Dangerously enthusiastic author of the Split Sea novels, Stephen lives in Cambridge UK and writes software as well as books. Winner of absolutely nothing, he writes words that make you laugh, wince and cry - which is a fairly similar experience to reading his code. He has an ongoing obsession with electric string instruments. He is a slow reader. He is a terrible fidget. He is overly fond of a whisky or twelve in a loud bar before returning home and changing out of his sweaty clothes for some late night gaming.</p>
+            <p>His current writing schedule is 'write until your brain melts, then play some cello and write some more', because he is incredibly behind. No matter what year you are reading this, it will almost certainly be true. Send him more of those encouraging emails about that character you liked so he doesn't give up. Failing that send him a Nandos.</p>
         </div>
     </div>
 </div>
-{% include mailing.html %}
+<div class="contact-section">
+    <div class="break-background">
+        <div class="header-backdrop">
+            <p class="big-heading" id="contact">Contact & Social Media</p>
+        </div>
+    </div>
+    <div class="contact-background">
+        <div class="contact-backdrop">
+            <p>🟦 <span class="contact-label">Bluesky: </span> <a href="https://bsky.app/profile/writing-steve.bsky.social">@writing-steve.bsky.social</a></p>
+            <p>🐤 <span class="contact-label">Twitter/X: </span><a href="https://twitter.com/writing_steve">@writing_steve</a></p>
+            <p>📔 <span class="contact-label">Goodreads: </span><a href="https://www.goodreads.com/author/show/21107669">Stephen Rice</a></p>
+            <p>✍ <span class="contact-label">Amazon Author: </span><a href="https://www.amazon.co.uk/stores/Stephen-Rice/author/B08RK2F28V">Stephen Rice</a></p>
+       
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mvonozgz" method="post">
+              <fieldset id="fs-frm-inputs">
+                <label for="full-name">Your Name</label>
+                <input type="text" name="name" id="full-name" placeholder="Joe Bloggs" required="">
+                <label for="email-address">Email Address</label>
+                <input type="email" name="_replyto" id="email-address" placeholder="joe@example.com" required="">
+                <label for="message">Message</label>
+                <textarea rows="5" name="message" id="message" placeholder="Hey Steve, I just bought all your books and rated them 5 stars so other people know! P.S What's with all the gunk and bleeding and whisky?" required=""></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+              </fieldset>
+              <input type="submit" value="Send">
+            </form>
+            <h4>FAQ</h4>
+            <p><span class="contact-label">'Where have you been since releasing <i>A Handful of Souls?</i>'</span></p>
+            <p>First draft of the next book in the series, <i>A Murder of Crowns</i>, is nearly finished. It's about twice the length and, to be frank, I've written it three times, trying to capture what people liked about the first book while continuing to work on my craft.</p><p>Writing a debut novel that people wanted to read felt like trying to catch lightning in a bottle. Writing its sequel felt like trying to mass produce lightning in a bottle. I am slow, but I am learning.
+            <p><span class="contact-label">I've signed up to your mailing list, why are there no newsletters?</span></p>
+            <p>First newsletter coming this autumn.</p>
+            <p><span class="contact-label">I've signed up to your mailing list, where's my free novella?</span></p>
+            <p>Once <i>A Murder of Crowns</i> is out the door I'd like to revisit some of the background lore and content cut from <i>A Handful of Souls</i> as a novella. This will be free to newsletter subscribers.
+            
+        </div>
+    </div>
+</div>
+<div class="back-to-top">
+    Back to <a href="#" onclick="scrollToTop();">top</a>
+</div>

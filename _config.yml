@@ -27,7 +27,7 @@ url: "https://www.stephenrice.co.uk/" # the base hostname & protocol for your si
 twitter_username: writing_steve
 github_username:
 domain: stephenrice.co.uk
-
+future: true
 header_pages:
   - index.md
   - contact.md
