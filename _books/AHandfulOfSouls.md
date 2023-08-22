@@ -11,7 +11,7 @@ entry: 1
 progress: 100
 ---
 
-#### Messy and Epic Dark Fantasy
+#### Messy & Epic Dark Fantasy
 <br />
 
 ## Summary

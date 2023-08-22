@@ -243,10 +243,11 @@ a.page-link:hover {
 
 .series-title {
     margin-bottom: 0px;
+    margin-right: 10px;
 }
 
 .series-text {
-    margin-left: 10px;
+    font-size: 12pt;
 }
 
 .book-container {
@@ -373,10 +374,6 @@ iframe{
 .break-background {
 }
 
-.book-container {
-
-}
-
 .blog-fadein {
     width: 100%;
     opacity: 0.3;
@@ -479,6 +476,10 @@ iframe{
     min-width: 43px;
 }
 
+.book-container {
+    height: 200px;
+}
+
 @media only screen and (min-width: 400px) {
 
 .small-content {
@@ -497,6 +498,10 @@ iframe{
 .author-head-pic {
     height: 100px;
     min-width: 85px;
+}
+
+.book-container {
+    height: 400px;
 }
 
 }
