@@ -61,7 +61,7 @@ From beyond the vortex current, spirits called the Tar-Agran float closer to the
 Most of the continent is claimed by a military group called the Roaming Watch. Little is known about them, but they seek stability at all times, allowing monarchs or militaries to hold or seize power as long as any conflict is swift and their taxes are paid. Watchmen are arrogant and peerless fighters, and are often accused of using taxation to deliberately suppress their vassal territories.
 
 ### Branera
-At the beginning of this novel, Lily, Lark and Rose are living with their adoptive father in Branera; the proudest, richest city of the Northlands. The most hospitable soil - tough and gritty as it is - was kept for farming, so the trading settlment which controls those lands was built on mud and slop. Despite this, Branera is a tall city, with towering, teetering buildings that elevate the aristocracy out of the mud. Wealth of all sorts is crammed into every nook and cranny of this creaking city, from the muddy Low Ends to the soaring boardwalks.
+At the beginning of this novel, Lily, Lark and Rose are living with their adoptive father in Branera; the proudest, richest city of the Northlands. The most hospitable soil - tough and gritty as it is - was kept for farming, so the trading settlment which controls those lands was built on mud and slop. Despite this, Branera is a tall city, with towering, teetering buildings that elevate the aristocracy out of the mud. Wealth of all sorts is crammed into every nook and cranny, from the Low Ends to the soaring boardwalks.
 
 ### The Journey
 
