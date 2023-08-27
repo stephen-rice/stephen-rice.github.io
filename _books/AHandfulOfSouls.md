@@ -32,6 +32,7 @@ Rating on [Goodreads:](https://www.goodreads.com/book/show/56537126-a-handful-of
 <br />
 
 ## Awards
+<img src="/assets/spfbo-semi-finalist.png" class="award" alt="SPBFO Semi-finalist badge"/>
 - Semi-finalist in SPFBO 7 <br /> [Bookborn](https://www.youtube.com/watch?v=RzdRHa8Ru5k&t=135s) <br /><span class="quote">'I'm always a sucker for a sibling story, and one where you don't know if you can trust the characters or not'</span>
 
 ## Selected Reviews
