@@ -1,7 +1,7 @@
 
 const playstyles = ["Turtle",
                     "Pressure",
-                    "Mega Expand",
+                    "Keep Expanding",
                     "Proxy Base",
                     "Siege",
                     "One Base",
@@ -9,7 +9,9 @@ const playstyles = ["Turtle",
                     "Deathball",
                     "Pyre Greed",
                     "Kill Workers",
-                    "Spam Towers"];
+                    "Spam Towers",
+                    "Two Base All In",
+                    "Rush Max Upgrades"];
 const factions = ["ARU",
                   "QRATH"];
 const qrathImmortals = ["ORZUM",
