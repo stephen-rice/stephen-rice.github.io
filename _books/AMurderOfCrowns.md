@@ -11,7 +11,10 @@ progress: 90
 ---
 
 ## Progress (90% drafted)
-Mostly trying to nail the ending of the first draft (200k+ words). First 50k has already seen heavy revisions because I sent it out for beta reads, and the rest is getting a lot of accidental revision as I sweep back through to remove bits of plot complexity or tighten things up before pushing to the end.
+
+See the latest homepage blog for lurid details! But basically I got sick and this book has dragged on. Currently trying to get it in shape for beta readers.
+
+250k+ words drafted.
 
 ## Release date
-Towards the end of this year.
+Not yet.

@@ -11,11 +11,10 @@ entry: 1
 progress: 100
 ---
 
-#### Messy & Epic Dark Fantasy
-<br />
-
 ## Summary
+<i>Genre: Dark Fantasy with stubborn, cheerful characters</i>
 
+<br />
 Deep in the cold and wet Northlands, Lark has been kidnapped by a spirit worker who can raise the dead. His sisters must travel to rescue him, pursued by a giant with a bleeding grin and guided by a liar.
 
 - A broad cast of strange characters
