@@ -1,0 +1,181 @@
+body {
+    background-color: #16282E;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Crimson Pro', sans-serif;
+}
+
+#main {
+    background-image: url("images/bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    min-height: 800px;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-top: 0px;
+    font-weight: normal;
+    color: #bd9b5e;
+}
+
+#factionIcon {
+    width: 60px;
+    fill: #f6f5f1;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.factionIconBox {
+    /* opacity: 0.3; */
+}
+
+#question {
+    font-size: 90px;
+    color: f6f5f1;
+    margin-top: 20px;
+}
+
+#factionLabel {
+    visibility: collpase;
+}
+
+#unitbox {
+    margin: 10px;
+ 
+}
+
+.unitPic {
+    border-style: solid;
+    width: 115px;
+    height: 115px;
+    border-color: #bd9b5e;
+    margin-bottom: 10px;
+    /* border-width: 1px */
+}
+
+.column {
+    width: 50%;
+    float:left;
+}
+
+.detailBox {
+    width: 450px;
+}
+
+#immortalBox {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+#playstyleBox {
+    margin-right:auto;
+    margin-left: 0px;
+}
+
+.immortalName {
+    margin: 0px;
+    padding: 0px;
+    line-height: 40px;
+    font-size: 80px;
+    color: #bd9b5e;
+    margin: 5px;
+}
+
+.playstyleLabel {
+    font-size: 100px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 80px
+}
+
+#playstyleWrapper {
+    margin-top: 10px;
+}
+
+.prefix {
+    font-size: 30px;
+    margin: 0px;
+}
+
+.unitName {
+    font-size: 20px;
+}
+
+.immortalPic {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.summary {
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.fadeIn {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.quickFadeIn {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#button {
+    border-width: 4px;
+    border-color: #679299;
+    border-style: solid;
+    background-color: #2A555C;
+    color: #E2E4E5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#button:hover {
+    /* background-color: #1D3A3F; */
+    /* border-color: #466368; */
+    /* color: #B0B0B0; */
+      /* transform: scale(0.98); */
+}
+
+#button:active {
+  /* background-color: #1D3A3F; */
+  /* border-color: #466368; */
+  transform: translateY(4px);
+  /* color: #B0B0B0; */
+}

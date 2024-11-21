@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.cdnfonts.com/css/crimson-pro" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts/random.js"></script>
+</head>
+<body onload="start();">
+
+<div id="main">
+    <h1>IMMORTAL: Gates of Pyre</h1>
+    <h2>Strategy Randomiser</h2>
+    <div class="factionIconBox">
+        <!-- <div id="question">?</div> -->
+        <svg viewBox="0 0 50 100" id="factionIcon" class="fadeIn"></svg>
+        <p id="factionLabel"></p>
+    </div>
+    <div class="column"> 
+        <div class="detailBox" id="immortalBox">
+        </div>
+    </div>
+    <div class="column">
+        <div class="detailBox" id="playstyleBox">
+        </div>
+    </div>
+</div>
+    <div id="button" onclick="randomiser.buttonClick();">Go</div>
+
+</body>
+</html>
