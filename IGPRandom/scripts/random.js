@@ -7,7 +7,8 @@ const playstyles = ["Turtle",
                     "One Base",
                     "Be Sneaky",
                     "Deathball",
-                    "Pyre Greed"];
+                    "Pyre Greed",
+                    "Kill Workers"];
 const factions = ["ARU",
                   "QRATH"];
 const qrathImmortals = ["ORZUM",
@@ -109,7 +110,7 @@ class IGPRandomiser {
         
         let prefix = document.createElement("p");
         prefix.classList.add("prefix");
-        prefix.innerHTML = "Play";
+        prefix.innerHTML = "As";
         fadeWrapper.appendChild(prefix);
         
         let label = document.createElement("p");
@@ -128,7 +129,7 @@ class IGPRandomiser {
     
     setUnit(unitname) {
         let label = document.createElement("p");
-        label.innerHTML = unitname;
+        label.innerHTML = "Focus on " + unitname;
         label.classList.add("unitName");
         label.classList.add("fadeIn");
         this.playstyleBox.appendChild(label);
