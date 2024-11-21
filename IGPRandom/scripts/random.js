@@ -8,7 +8,8 @@ const playstyles = ["Turtle",
                     "Be Sneaky",
                     "Deathball",
                     "Pyre Greed",
-                    "Kill Workers"];
+                    "Kill Workers",
+                    "Spam Towers"];
 const factions = ["ARU",
                   "QRATH"];
 const qrathImmortals = ["ORZUM",
